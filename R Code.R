@@ -2,6 +2,9 @@
 ############ Installing Relevant R Packages ##############
 ##########################################################
 
+install.packages("RCurl")
+library(RCurl)
+
 install.packages("corrplot")
 library(corrplot)  
 
@@ -39,8 +42,8 @@ today=as.character(Sys.Date())
 ####################### WHITE WINE #######################
 ##########################################################
 
-setwd("~/Desktop/STAT 5630/Final Project")
-wine=read.csv("winequality-white.csv",header=T,sep=";")
+url = getURL("https://raw.githubusercontent.com/ChristineHarris/Wine-Quality-Classification/main/data/winequality-white.csv")
+wine = read.csv(text = url,header=T,sep=";")
 summary(wine)
 
 scaled=scale(wine[,1:11])
@@ -200,7 +203,8 @@ dev.off()
 ####################### RED WINE #########################
 ##########################################################
 
-wine=read.csv("winequality-red.csv",header=T,sep=";")
+url = getURL("https://raw.githubusercontent.com/ChristineHarris/Wine-Quality-Classification/main/data/winequality-red.csv")
+wine = read.csv(text = url,header=T,sep=";")
 summary(wine)
 
 scaled=scale(wine[,1:11])
