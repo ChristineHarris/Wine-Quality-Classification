@@ -37,9 +37,9 @@ Size Requirements. *Journal of the American Physical Therapy Association,* 85(3)
 2005.
 
 P. Appalasamy, A. Mustapha, N.D. Rizal, F. Johari, and A.F. Mansor. Classification-based Data
-Mining Approach for Quality Control in Wine Production. In Journal of Applied Sciences, 12(6):
+Mining Approach for Quality Control in Wine Production. *Journal of Applied Sciences,* 12(6):
 598-601, 2012.
 
 P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. Modeling wine preferences by data
-mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553,
+mining from physicochemical properties. *Decision Support Systems,* 47(4):547-553,
 2009.
