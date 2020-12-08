@@ -41,5 +41,5 @@ Mining Approach for Quality Control in Wine Production. *Journal of Applied Scie
 598-601, 2012.
 
 P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. Modeling wine preferences by data
-mining from physicochemical properties. *Decision Support Systems,* 47(4):547-553,
+mining from physicochemical properties. *Decision Support Systems,* 47(4): 547-553,
 2009.
