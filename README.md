@@ -5,8 +5,7 @@ This project compares the power of six different techniques - Logistic Regressio
 
 ## Data
 
-The data for this project comes from the UCI Machine Learning Repository's [Wine Quality Data Set](https://archive.ics.uci.edu/ml/datasets/wine+quality). 
-
+In a 2009 study on wine quality classification, Paulo Cortez and his colleagues created two [datasets](https://archive.ics.uci.edu/ml/datasets/wine+quality) related to red and white variants of Portuguese “Vinho Verde” wine. The red wine dataset contains 1,599 instances and the white wine dataset contains 4,898 instances. There are 11 input attributes and one output attribute. The input variables include objective tests: fixed acidity (1), volatile acidity (2), citric acid (3), residual sugar (4), chlorides (5), free sulfur dioxide (6), total sulfur dioxide (7), density (8), pH (9), sulphates (10), and alcohol (11). The output is based on sensory data: quality (12). The output is represented by a score between 0 (very bad) and 10 (very excellent), and is determined by taking the median of at least three evaluations by wine experts. Due to privacy and logistical issues, only physicochemical (inputs) and sensory (output) variables are included in this data.
 
 ## Exploratory Data Analysis
 
