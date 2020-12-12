@@ -1,7 +1,6 @@
 # Wine-Quality-Classification
 
-This project compares the power of six different techniques - Logistic Regression (GLM), Support Vector Machines (SVM), Support Vector Machines with Radial Basis Function
-(SVM-RBF), Neural Networks (NNet), Neural Networks Average (AvgNN), and Random Forest (RF) - to predict the quality of wine based solely on physicochemical properties.
+Within the wine industry, certification and quality assessment are conducted via physicochemical and sensory tests. Some of these sensory tests such as taste preference are performed by wine experts and are therefore prone to a certain degree of subjectivity. Physicochemical tests, on the other hand, create objective measurements of a wine's properties (such as acidity and pH). The purpose of this analysis is to explore the degree to which these physicochemical tests on their own can predict wine quality, potentially prompting a reevaluation of the current system and heavy reliance on wine tasters.
 
 ## Data
 
