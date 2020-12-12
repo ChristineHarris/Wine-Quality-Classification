@@ -1,6 +1,6 @@
 # Wine-Quality-Classification
 
-Within the wine industry, certification and quality assessment are conducted via physicochemical and sensory tests. Some of these sensory tests such as taste preference are performed by wine experts and are therefore prone to a certain degree of subjectivity. Physicochemical tests, on the other hand, create objective measurements of a wine's properties (such as acidity and pH). The purpose of this analysis is to explore the degree to which these physicochemical tests on their own can predict wine quality, potentially prompting a reevaluation of the current system and heavy reliance on wine tasters.
+Within the wine industry, certification and quality assessment are conducted via physicochemical and sensory tests. Some of these sensory tests, such as taste and preference, are performed by wine experts and are therefore prone to a certain degree of subjectivity. Physicochemical tests, on the other hand, create objective measurements of a wine's properties (such as acidity and pH). The purpose of this analysis is to explore the degree to which these physicochemical tests on their own can predict wine quality, potentially prompting a reevaluation of the current system and heavy reliance on wine tasters.
 
 ## Data
 
