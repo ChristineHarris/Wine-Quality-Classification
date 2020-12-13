@@ -23,7 +23,7 @@ The output is based on sensory data: quality (12). Quality is represented by a s
 
 ## Exploratory Data Analysis
 
-Due to significant differences in taste between red and white wines, the two distinct datasets are analyzed separately.
+Looking at the summary statistics for each variable in both data sets separately, it's clear that there are some significant differences in the physicochemical properties between red and white wines. As such, we create separate classification models for red and white wine.
 
 ![](/images/summary_statistics.PNG)
 
