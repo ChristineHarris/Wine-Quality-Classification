@@ -25,6 +25,8 @@ The output is based on sensory data: quality (12). Quality is represented by a s
 
 Due to significant differences in taste between red and white wines, the two distinct datasets are analyzed separately.
 
+![](/images/summary_statistics.png)
+
 ## Preprocessing
 
 The response variable, quality, is redefined as a factor in order to create a binary classification problem. Rather than a quantitative rating from 1 to 10, scores greater than or equal to 6 are classified as "good" and scores less than 6 are classified as "bad." The dataset is split into training and test sets according to a 70-30 split.
