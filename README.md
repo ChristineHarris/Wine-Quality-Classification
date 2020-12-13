@@ -42,6 +42,9 @@ Recursive feature elimination was performed on both the white wine and red wine 
 
 ## Results
 
+![](/images/results_accuracy.PNG)
+
+![](/images/results_kappa.PNG)
 
 ## Sources
 
