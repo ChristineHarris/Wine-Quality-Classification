@@ -25,7 +25,7 @@ The output is based on sensory data: quality (12). Quality is represented by a s
 
 Due to significant differences in taste between red and white wines, the two distinct datasets are analyzed separately.
 
-![](/images/summary_statistics.PNG =700x)
+![](./images/summary_statistics.PNG =700x447)
 
 
 ## Preprocessing
