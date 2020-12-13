@@ -23,7 +23,7 @@ The output is based on sensory data: quality (12). Quality is represented by a s
 
 ## Exploratory Data Analysis
 
-Looking at the summary statistics for each variable in both data sets separately, it's clear that there are some significant differences in the physicochemical properties between red and white wines. As such, we create separate classification models for red and white wine.
+Looking at the summary statistics for the variables in both data sets, it's clear that there are some significant differences in the physicochemical properties between red and white wines. For example, white wines typically contain much higher amounts of residual sugar than red wines. As such, separate classification models will be built for red and white wine.
 
 ![](/images/summary_statistics.PNG)
 
@@ -34,7 +34,7 @@ The response variable, quality, is redefined as a factor in order to create a bi
 
 The variables in this dataset have amplitudes of significant size. In addition, these physicochemical properties are recorded using several different units of measure, making them hard to compare. It is therefore inefficient to use the data in its original form. For the purposes of this analysis, the data is scaled to ensure that no one variables is more influential than the others. The data is scaled individually for each input variable. In this way, the mean value for each column will be 0 and the mean standard deviation will be 1.
 
-Recursive feature eliminations were performed on both the white wine and red wine datasets in order to identify how many input variables should be examined in order for our classification models to perform optimally. After analyzing the backwards elimination plots for the two datasets in Figure 1, it is clear that both red and white wine classification models perform better when considering all of the potential input variables. These results corroborate Cortez’s finding that most of the physicochemical inputs are relevant to the classification of wine quality. As a result, all 11 input variables will be utilized in this analysis.
+Recursive feature elimination was performed on both the white wine and red wine datasets in order to identify how many input variables should included in the classification models. After analyzing the backwards elimination plots for the two datasets, it is clear that both red and white wine classification models perform better when considering all of the potential input variables. These results corroborate Cortez’s finding that most of the physicochemical inputs are relevant to the classification of wine quality. As a result, all 11 input variables will be utilized in this analysis. Additionally, 
 
 
 ## Model Building
