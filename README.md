@@ -30,9 +30,10 @@ Looking at the summary statistics for the variables in both data sets, it's clea
 
 ## Preprocessing
 
-#### *Redefining Quality as a Binary Response*
+#### *Dichotomizing the Response*
 The response variable, quality, is redefined as a factor in order to create a binary classification problem. Rather than a quantitative rating from 1 to 10, scores greater than or equal to 6 are classified as "good" and scores less than 6 are classified as "bad." The dataset is split into training and test sets according to a 70-30 split.
 
+**NOTE:** The response variable was dichotomized in order for the analysis to correspond to project instructions (that is, to transform the problem into a binary classification problem). In general, dichotomizing the response variable is not recommended as valuable information contained in the data set will be lost. In this project, for example, red wine with a quality rating of 6 and a quality rating of 9 are both considered "good." That is, the distinction between a quality rating of 6 and a quality rating of 9 is deemed unimportant. In reality, this distinction is likely quite significant. 
 
 #### *Feature Scaling*
 The variables in this dataset have amplitudes of significant size. In addition, these physicochemical properties are recorded using several different units of measure, making them hard to compare. It is therefore inefficient to use the data in its original form. For the purposes of this analysis, the data is scaled to ensure that no one variables is more influential than the others. The data is scaled individually for each input variable. In this way, the mean value for each column will be 0 and the mean standard deviation will be 1.
