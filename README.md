@@ -30,13 +30,15 @@ Looking at the summary statistics for the variables in both data sets, it's clea
 
 ## Preprocessing
 
-#### Redefining Quality as a Binary Response
+#### *Redefining Quality as a Binary Response*
 The response variable, quality, is redefined as a factor in order to create a binary classification problem. Rather than a quantitative rating from 1 to 10, scores greater than or equal to 6 are classified as "good" and scores less than 6 are classified as "bad." The dataset is split into training and test sets according to a 70-30 split.
 
-#### Feature Scaling
+
+#### *Feature Scaling*
 The variables in this dataset have amplitudes of significant size. In addition, these physicochemical properties are recorded using several different units of measure, making them hard to compare. It is therefore inefficient to use the data in its original form. For the purposes of this analysis, the data is scaled to ensure that no one variables is more influential than the others. The data is scaled individually for each input variable. In this way, the mean value for each column will be 0 and the mean standard deviation will be 1.
 
-#### Feature Selection
+
+#### *Feature Selection*
 Recursive feature elimination was performed on both the white wine and red wine datasets in order to identify how many input variables should included in the classification models. After analyzing the backwards elimination plots for the two datasets, it is clear that both red and white wine classification models perform better when considering all of the potential input variables. These results corroborate Cortez’s finding that most of the physicochemical inputs are relevant to the classification of wine quality. As a result, all 11 input variables will be utilized in this analysis. Additionally, 
 
 ![](/images/feature_selection.PNG)
