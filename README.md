@@ -23,7 +23,7 @@ The output is based on sensory data: quality (12). Quality is represented by a s
 
 ## Exploratory Data Analysis
 
-Looking at the summary statistics for the variables in both data sets, it's clear that there are some significant differences in the physicochemical properties between red and white wines. For example, white wines typically contain much higher amounts of residual sugar than red wines. As such, separate classification models will be built for red and white wine.
+Looking at the summary statistics for the variables in both data sets, it's clear that there are some significant differences in the physicochemical properties between red and white wines. For example, white wines typically contain much higher amounts of residual sugar than red wines. As such, separate classification models are built for red and white wine.
 
 ![](/images/summary_statistics.PNG)
 
@@ -46,6 +46,11 @@ Recursive feature elimination was performed on both the white wine and red wine 
 
 ## Model Building
 
+This analysis compares the predictive power of the following techniques:
+*   Logistic Regression
+*   Support Vector Machines (SVM)
+*   Artificial Neural Network (ANN)
+*   Random Forests
 
 ## Results
 
